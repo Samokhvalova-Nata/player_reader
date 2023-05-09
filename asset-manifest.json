@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/player_reader/static/css/main.f4a87649.css",
+    "main.js": "/player_reader/static/js/main.c8898cbd.js",
+    "index.html": "/player_reader/index.html",
+    "main.f4a87649.css.map": "/player_reader/static/css/main.f4a87649.css.map",
+    "main.c8898cbd.js.map": "/player_reader/static/js/main.c8898cbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4a87649.css",
+    "static/js/main.c8898cbd.js"
+  ]
+}
