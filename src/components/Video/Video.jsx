@@ -9,18 +9,18 @@ export class Video extends Component {
     }
 
     selectVideo = link => {
-        this.setState({ selectVideo: link });
+        this.setState({ selectedVideo: link });
     }
 
     render() {
         const { selectedVideo } = this.state;
         
         return (
-            <>
+            <div>
                 <h1>Selected video: {selectedVideo}</h1>
                 <VideoList videos={videos} onSelect={this.selectVideo} />
                 <VideoPlayer url={selectedVideo} />
-            </>
+            </div>
         );
     }
 }

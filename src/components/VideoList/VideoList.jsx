@@ -1,13 +1,10 @@
-export const VideoList = ({ videos, onSelect}) => {
+export const VideoList = ({ videos, onSelect }) => {
     return (
-        <ul>
-        {videos.map(({id, link}) => (
-            <li key={id}>
-                <a href={link}  onClick={() => onSelect(link)}>
-                    {link}
-                </a>
-            </li>
-        ))}
-        </ul>)
-        
-}
+        <div>
+            {videos.map(video => (
+                <button type='button' key={video.id} onClick={() => onSelect(video.link)}>
+                    {video.link}
+                </button>
+            ))}
+        </div>)
+};
